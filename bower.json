@@ -1,8 +1,8 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "angular-experiments",
+  "description": "A experimental project for AngularJS by Josh P.",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/jparks06/angular_experiments",
   "license": "MIT",
   "private": true,
   "dependencies": {
