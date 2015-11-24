@@ -21,7 +21,8 @@
     "grunt-contrib-nodeunit": "~0.4.1",
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-contrib-sass": "~0.9.2",
-    "grunt-contrib-jshint": "~0.11.3"
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-karma": "~0.11.0"
   },
   "scripts": {
     "postinstall": "bower install",

@@ -1,7 +1,7 @@
 'use strict';
 
 describe('experiments.version module', function() {
-  beforeEach(module('myApp.version'));
+  beforeEach(module('experiments.version'));
 
   describe('interpolate filter', function() {
     beforeEach(module(function($provide) {
