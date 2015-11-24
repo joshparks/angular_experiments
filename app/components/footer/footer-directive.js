@@ -1,18 +1,22 @@
-'use strict';
+(function() {
 
-angular.module('experiments.footer.footer-directive', [])
+  'use strict';
 
-.directive('footer', [ function() {
+  angular.module('experiments.footer.footer-directive', [])
 
-  return {
+  .directive('footer', [ function() {
 
-    restrict: 'E',
-    templateUrl: 'components/footer/footer.html',
-    controller: 'FooterCtrl',
-    link: function(scope, elem, attrs) {
+    return {
 
-    }
+      restrict: 'E',
+      templateUrl: 'components/footer/footer.html',
+      controller: 'FooterCtrl',
+      link: function(scope, elem, attrs) {
 
-  };
+      }
 
-}]);
+    };
+
+  }]);
+
+})();

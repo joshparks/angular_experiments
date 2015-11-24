@@ -1,1 +1,5 @@
-'use-scrict';
+(function() {
+
+  'use strict';
+
+})();

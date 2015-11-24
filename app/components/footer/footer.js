@@ -1,9 +1,13 @@
-'use strict';
+(function() {
 
-angular.module('experiments.footer', [
-  'experiments.footer.footer-directive'
-])
+  'use strict';
 
-.controller('FooterCtrl', ['$scope', function($scope) {
+  angular.module('experiments.footer', [
+    'experiments.footer.footer-directive'
+  ])
 
-}]);
+  .controller('FooterCtrl', ['$scope', function($scope) {
+
+  }]);
+
+})();

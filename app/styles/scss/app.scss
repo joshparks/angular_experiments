@@ -1,5 +1,11 @@
 @charset "UTF-8";
 //@import 'reset';
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../../components/navbar/navbar';
 @import '../../views/home/home';
 @import '../../views/view1/view1';
 @import '../../views/view2/view2';
+
+
+$site_blue: #002C5F;
+$site_grey: #A5ACAF;

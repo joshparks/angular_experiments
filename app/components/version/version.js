@@ -1,8 +1,12 @@
-'use strict';
+(function() {
 
-angular.module('experiments.version', [
-  'experiments.version.interpolate-filter',
-  'experiments.version.version-directive'
-])
+  'use strict';
 
-.value('version', '0.1');
+  angular.module('experiments.version', [
+    'experiments.version.interpolate-filter',
+    'experiments.version.version-directive'
+  ])
+
+  .value('version', '0.1');
+  
+})();

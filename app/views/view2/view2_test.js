@@ -1,16 +1,20 @@
-'use strict';
+(function() {
 
-describe('experiments.view2 module', function() {
+  'use strict';
 
-  beforeEach(module('experiments.view2'));
+  describe('experiments.view2 module', function() {
 
-  describe('view2 controller', function(){
+    beforeEach(module('experiments.view2'));
 
-    it('should ....', inject(function($controller) {
-      //spec body
-      var view2Ctrl = $controller('View2Ctrl');
-      expect(view2Ctrl).toBeDefined();
-    }));
+    describe('view2 controller', function(){
 
+      it('should ....', inject(function($controller) {
+        //spec body
+        var view2Ctrl = $controller('View2Ctrl');
+        expect(view2Ctrl).toBeDefined();
+      }));
+
+    });
   });
-});
+
+})();

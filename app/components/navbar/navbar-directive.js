@@ -1,18 +1,22 @@
-'use strict';
+(function() {
 
-angular.module('experiments.navbar.navbar-directive', [])
+  'use strict';
 
-.directive('navBar', [ function() {
+  angular.module('experiments.navbar.navbar-directive', [])
 
-  return {
+  .directive('navBar', [ function() {
 
-    restrict: 'E',
-    templateUrl: 'components/navbar/navbar.html',
-    controller: 'NavBarCtrl',
-    link: function(scope, elem, attrs) {
+    return {
 
-    }
+      restrict: 'E',
+      templateUrl: 'components/navbar/navbar.html',
+      controller: 'NavBarCtrl',
+      link: function(scope, elem, attrs) {
 
-  };
+      }
 
-}]);
+    };
+
+  }]);
+
+})();

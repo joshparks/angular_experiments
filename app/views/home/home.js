@@ -1,16 +1,20 @@
-'use strict';
+(function() {
 
-angular.module('experiments.views.home', ['ngRoute'])
+  'use strict';
 
-.config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/home', {
-    templateUrl: 'views/home/home.html',
-    controller: 'HomeCtrl'
-  });
-}])
+  angular.module('experiments.views.home', ['ngRoute'])
 
-.controller('HomeCtrl', ['$scope', function($scope) {
+  .config(['$routeProvider', function($routeProvider) {
+    $routeProvider.when('/home', {
+      templateUrl: 'views/home/home.html',
+      controller: 'HomeCtrl'
+    });
+  }])
 
-  $scope.test = "Success!";
+  .controller('HomeCtrl', ['$scope', function($scope) {
 
-}]);
+    $scope.test = "Success!";
+
+  }]);
+
+})();
