@@ -11,7 +11,11 @@
     });
   }])
 
-  .controller('View1Ctrl', [function() {
+  .controller('View1Ctrl', ['$scope', 'MockPosts', function($scope, MockPosts) {
+
+    MockPosts.query(function(data) {
+      $scope.posts = data;
+    });
 
   }]);
 
