@@ -18,6 +18,13 @@ module.exports = function(grunt) {
       },
       all: ['Gruntfile.js', 'app/**/*.js', '!app/node_modules/*.js', '!app/bower_modules/*.js']
     },
+    sass: {
+      dev: {
+        files: {
+          'app/styles/app.css': 'app/styles/scss/app.scss'
+        }
+      }
+    },
   });
 
   // Load the plugin that provides the "uglify" task.
