@@ -1,0 +1,13 @@
+<h1>Posts Page Content</h1>
+
+<table ng-table="postsTable" class="table-condensed table-bordered table-hover">
+
+  <!-- simple table, no grouping -->
+  <tr ng-repeat="post in $data">
+    <td data-title="'Id'" sortable="'id'">{{post.id}}</td>
+    <td data-title="'User Id'" sortable="'userId'">{{post.userId}}</td>
+    <td data-title="'Title'" sortable="'title'">{{post.title}}</td>
+    <td data-title="'Body'">{{post.body}}</td>
+  </tr>
+  
+</table>

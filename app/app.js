@@ -6,6 +6,8 @@
   angular.module('experiments', [
     'ngRoute',
     'ngResource',
+    'ngTable',
+    'ngFileUpload',
     'ui.bootstrap',
     'experiments.views.home',
     'experiments.view1',
@@ -13,7 +15,9 @@
     'experiments.version',
     'experiments.navbar',
     'experiments.footer',
-    'experiments.mockService'
+    'experiments.mockService',
+    'experiments.views.posts',
+    'experiments.views.upload'
   ]).
   config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/home'});

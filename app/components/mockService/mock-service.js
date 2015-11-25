@@ -8,6 +8,7 @@
     'experiments.mockService.photos',
     'experiments.mockService.posts',
     'experiments.mockService.todos',
+    'experiments.mockService.upload',
     'experiments.mockService.users'
   ])
 
