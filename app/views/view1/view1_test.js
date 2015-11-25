@@ -2,9 +2,9 @@
 
   'use strict';
 
-  describe('experiments.view1 module', function() {
+  describe('experiments.views.view1 module', function() {
 
-    beforeEach(module('experiments.view1'));
+    beforeEach(module('experiments.views.view1'));
 
     describe('view1 controller', function(){
 

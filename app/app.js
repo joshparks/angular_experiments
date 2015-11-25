@@ -9,15 +9,11 @@
     'ngTable',
     'ngFileUpload',
     'ui.bootstrap',
-    'experiments.views.home',
-    'experiments.view1',
-    'experiments.view2',
     'experiments.version',
     'experiments.navbar',
     'experiments.footer',
     'experiments.mockService',
-    'experiments.views.posts',
-    'experiments.views.upload'
+    'experiments.views'
   ]).
   config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/home'});
