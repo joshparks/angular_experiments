@@ -13,10 +13,13 @@
     'experiments.navbar',
     'experiments.footer',
     'experiments.mockService',
-    'experiments.views'
-  ]).
-  config(['$routeProvider', function($routeProvider) {
+    'experiments.views',
+    'experiments.loading'
+  ])
+
+  .config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
     $routeProvider.otherwise({redirectTo: '/home'});
+    $httpProvider.interceptors.push('LoadingInterceptor');
   }]);
 
 })();

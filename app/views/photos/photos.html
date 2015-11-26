@@ -1,1 +1,14 @@
 <h1>Photos Page Content</h1>
+
+<table ng-table="photosTable" class="table-condensed table-bordered table-hover">
+
+  <!-- simple table, no grouping -->
+  <tr ng-repeat="photo in $data">
+    <td data-title="'Id'" sortable="'id'">{{photo.id}}</td>
+    <td data-title="'Album Id'" sortable="'albumId'">{{photo.albumId}}</td>
+    <td data-title="'Title'" sortable="'title'">{{photo.title}}</td>
+    <td data-title="'Url'">{{photo.url}}</td>
+    <td data-title="'Thumbnail'"><img ng-src="{{photo.thumbnailUrl}}" alt="{{photo.title}}" /></td>
+  </tr>
+
+</table>

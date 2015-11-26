@@ -13,7 +13,7 @@
 
   .controller('View2Ctrl', ['$scope', function($scope) {
 
-  $scope.test = "View 2 Success";
+    $scope.test = "View 2 Success";
 
   }]);
 

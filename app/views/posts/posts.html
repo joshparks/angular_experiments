@@ -1,5 +1,7 @@
 <h1>Posts Page Content</h1>
 
+<div ng-if="loading" class="alert alert-danger" role="alert">Loading all the good stuff...</div>
+
 <table ng-table="postsTable" class="table-condensed table-bordered table-hover">
 
   <!-- simple table, no grouping -->
@@ -9,5 +11,5 @@
     <td data-title="'Title'" sortable="'title'">{{post.title}}</td>
     <td data-title="'Body'">{{post.body}}</td>
   </tr>
-  
+
 </table>

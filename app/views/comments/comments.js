@@ -6,7 +6,7 @@
 
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/comments', {
-      templateUrl: 'views/posts/comments.html',
+      templateUrl: 'views/comments/comments.html',
       controller: 'CommentsCtrl'
     });
   }])
